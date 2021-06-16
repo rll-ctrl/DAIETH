@@ -1,6 +1,4 @@
-type ExampleEntity @entity {
+type Supply @entity {
   id: ID!
   count: BigInt!
-  src: Bytes! # address
-  guy: Bytes! # address
 }
